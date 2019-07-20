@@ -12,7 +12,6 @@ module cefb(
 	dbg_sw_,
 	
 	status_led_,
-	status_b3a_led_,
 	dig_,
 	
 	spi_sclk,
@@ -51,11 +50,6 @@ module cefb(
 	
 	mezz_rx_c,
 	mezz_tx_c,
-	
-	mezz_sclk,
-	mezz_mosi,
-	mezz_miso,
-	mezz_ss_,
 	
 	eth_tx_clk,
 	eth_rx_clk,
@@ -105,7 +99,6 @@ module cefb(
 	input wire [7:0] dbg_sw_;
 	
 	output wire [3:0] status_led_;
-	output wire [1:0] status_b3a_led_;
 	output wire [7:0] dig_;
 	
 	output wire spi_sclk;
@@ -144,11 +137,6 @@ module cefb(
 	
 	input wire [15:0] mezz_rx_c;
 	output wire [15:0] mezz_tx_c;
-	
-	output wire mezz_sclk;
-	output wire mezz_mosi;
-	input wire mezz_miso;
-	output wire mezz_ss_;
 	
 	input wire eth_tx_clk;
 	input wire eth_rx_clk;

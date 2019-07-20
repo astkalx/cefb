@@ -540,4 +540,6 @@ set_location_assignment PIN_U11 -to mezz_mosi
 set_location_assignment PIN_U12 -to mezz_miso
 set_location_assignment PIN_R12 -to mezz_sclk
 set_location_assignment PIN_P12 -to mezz_ss_
+set_location_assignment PIN_W9 -to status_b3a_led_[0]
+set_location_assignment PIN_W8 -to status_b3a_led_[1]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
