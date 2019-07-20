@@ -2,8 +2,8 @@ Core: C5_DDR3_p0 - Instance: c5_ddr3_inst|c5_ddr3_inst
 Path, Setup Margin, Hold Margin
 "Address Command (Slow 1100mV 85C Model)",0.237,0.21
 "Bus Turnaround Time (Slow 1100mV 85C Model)",1.304,--
-"Core (Slow 1100mV 85C Model)",0.418,0.303
-"Core Recovery/Removal (Slow 1100mV 85C Model)",6.774,1.065
+"Core (Slow 1100mV 85C Model)",0.417,0.296
+"Core Recovery/Removal (Slow 1100mV 85C Model)",7.367,1.018
 "DQS vs CK (Slow 1100mV 85C Model)",-0.094,-0.062
 "Postamble (Slow 1100mV 85C Model)",0.102,0.102
 "Read Capture (Slow 1100mV 85C Model)",-0.031,-0.078
@@ -11,23 +11,23 @@ Path, Setup Margin, Hold Margin
 "Address Command (Slow 1100mV 0C Model)",0.216,0.203
 "Bus Turnaround Time (Slow 1100mV 0C Model)",1.355,--
 "Core (Slow 1100mV 0C Model)",0.327,0.347
-"Core Recovery/Removal (Slow 1100mV 0C Model)",6.981,1.007
+"Core Recovery/Removal (Slow 1100mV 0C Model)",7.577,0.905
 "DQS vs CK (Slow 1100mV 0C Model)",-0.021,-0.067
 "Postamble (Slow 1100mV 0C Model)",0.087,0.087
 "Read Capture (Slow 1100mV 0C Model)",-0.023,-0.07
 "Write (Slow 1100mV 0C Model)",-0.001,0.011
 "Address Command (Fast 1100mV 85C Model)",0.329,0.288
 "Bus Turnaround Time (Fast 1100mV 85C Model)",1.745,--
-"Core (Fast 1100mV 85C Model)",1.251,0.156
-"Core Recovery/Removal (Fast 1100mV 85C Model)",9.629,0.363
+"Core (Fast 1100mV 85C Model)",1.251,-0.024
+"Core Recovery/Removal (Fast 1100mV 85C Model)",9.97,0.367
 "DQS vs CK (Fast 1100mV 85C Model)",0.162,0.141
 "Postamble (Fast 1100mV 85C Model)",0.315,0.315
 "Read Capture (Fast 1100mV 85C Model)",0.178,0.131
 "Write (Fast 1100mV 85C Model)",0.14,0.14
 "Address Command (Fast 1100mV 0C Model)",0.311,0.312
 "Bus Turnaround Time (Fast 1100mV 0C Model)",1.748,--
-"Core (Fast 1100mV 0C Model)",1.268,0.142
-"Core Recovery/Removal (Fast 1100mV 0C Model)",10.073,0.347
+"Core (Fast 1100mV 0C Model)",1.269,0.016
+"Core Recovery/Removal (Fast 1100mV 0C Model)",10.359,0.341
 "DQS vs CK (Fast 1100mV 0C Model)",0.153,0.161
 "Postamble (Fast 1100mV 0C Model)",0.334,0.334
 "Read Capture (Fast 1100mV 0C Model)",0.18,0.133

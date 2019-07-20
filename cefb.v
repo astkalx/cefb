@@ -51,6 +51,11 @@ module cefb(
 	mezz_rx_c,
 	mezz_tx_c,
 	
+	mezz_sclk,
+	mezz_mosi,
+	mezz_miso,
+	mezz_ss_,
+	
 	eth_tx_clk,
 	eth_rx_clk,
 
@@ -137,6 +142,11 @@ module cefb(
 	
 	input wire [15:0] mezz_rx_c;
 	output wire [15:0] mezz_tx_c;
+	
+	output wire mezz_sclk;
+	output wire mezz_mosi;
+	input wire mezz_miso;
+	output wire mezz_ss_;
 	
 	input wire eth_tx_clk;
 	input wire eth_rx_clk;

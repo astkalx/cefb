@@ -528,4 +528,16 @@ set_location_assignment PIN_T13 -to mezz_rx_rst_
 set_location_assignment PIN_T12 -to mezz_tx_rst_
 set_location_assignment PIN_R14 -to mezz_rxc
 set_location_assignment PIN_P14 -to mezz_txc
+set_location_assignment PIN_P16 -to spi_sclk
+set_location_assignment PIN_R16 -to spi_mosi
+set_location_assignment PIN_R15 -to spi_miso
+set_location_assignment PIN_T15 -to spi_ss_
+set_location_assignment PIN_T20 -to cpld_mosi
+set_location_assignment PIN_T19 -to cpld_miso
+set_location_assignment PIN_R22 -to cpld_sclk
+set_location_assignment PIN_R17 -to cpld_ss_
+set_location_assignment PIN_U11 -to mezz_mosi
+set_location_assignment PIN_U12 -to mezz_miso
+set_location_assignment PIN_R12 -to mezz_sclk
+set_location_assignment PIN_P12 -to mezz_ss_
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
